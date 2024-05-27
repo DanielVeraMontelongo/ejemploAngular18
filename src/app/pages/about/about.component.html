@@ -1,0 +1,4 @@
+
+@for (user of users; track user; let i = $index ) {
+    <app-card [userHijo]="user" [color]="'primary'" (eventoDesdeElHijo)="capturoElEvento($event)"></app-card>
+}

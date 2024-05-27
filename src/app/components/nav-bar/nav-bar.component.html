@@ -1,0 +1,11 @@
+
+<nav>
+  <a routerLink="/home">Home</a>
+  <a routerLink="/about">About</a>
+
+  <select name="lang" id="lang" [(ngModel)]="selectedLang" (change)="changeLang()">
+    <option value="en">Inglés</option>
+    <option value="es">Español</option>
+  </select>
+
+</nav>

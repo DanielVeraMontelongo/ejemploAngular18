@@ -1,0 +1,13 @@
+
+@if (battleEnd) {
+    <div class="fullScreen">
+        <h1> {{translations.translations.defeat}}</h1>
+        <button (click)="accept()">Ok</button>
+    </div>
+} @else {
+    <input type="text" #nombre placeholder="Nombre">
+    <input type="text" #apellido placeholder="Apellido">
+    <input type="number" #edad placeholder="Edad">
+    <button (click)="createUser(nombre.value, apellido.value, edad.valueAsNumber)">Crear Usuario</button>
+}
+

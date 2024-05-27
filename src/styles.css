@@ -1,1 +1,256 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2ecc71;
+  --tertiary-color: #e74c3c;
+
+  --title-font: 'Roboto', sans-serif;
+  --body-font: 'Open Sans', sans-serif;
+}
+
+/* Clases para Títulos y Subtítulos */
+.title {
+  font-family: 'Roboto', sans-serif;
+  color: #2ecc71;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-family: 'Roboto', sans-serif;
+  color: #3498db;
+  font-size: 1.5em;
+  font-weight: normal;
+}
+
+.link {
+  font-family: 'Open Sans', sans-serif;
+  color: #e74c3c;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+/* Clases para Márgenes */
+.mg-top-5 {
+  margin-top: 5px;
+}
+
+.mg-top-10 {
+  margin-top: 10px;
+}
+
+.mg-top-15 {
+  margin-top: 15px;
+}
+
+.mg-top-20 {
+  margin-top: 20px;
+}
+
+.mg-top-25 {
+  margin-top: 25px;
+}
+
+.mg-top-30 {
+  margin-top: 30px;
+}
+
+.mg-top-35 {
+  margin-top: 35px;
+}
+
+.mg-top-40 {
+  margin-top: 40px;
+}
+
+.mg-top-45 {
+  margin-top: 45px;
+}
+
+.mg-top-50 {
+  margin-top: 50px;
+}
+
+.mg-bottom-5 {
+  margin-bottom: 5px;
+}
+
+.mg-bottom-10 {
+  margin-bottom: 10px;
+}
+
+.mg-bottom-15 {
+  margin-bottom: 15px;
+}
+
+.mg-bottom-20 {
+  margin-bottom: 20px;
+}
+
+.mg-bottom-25 {
+  margin-bottom: 25px;
+}
+
+.mg-bottom-30 {
+  margin-bottom: 30px;
+}
+
+.mg-bottom-35 {
+  margin-bottom: 35px;
+}
+
+.mg-bottom-40 {
+  margin-bottom: 40px;
+}
+
+.mg-bottom-45 {
+  margin-bottom: 45px;
+}
+
+.mg-bottom-50 {
+  margin-bottom: 50px;
+}
+
+.mg-left-5 {
+  margin-left: 5px;
+}
+
+.mg-left-10 {
+  margin-left: 10px;
+}
+
+.mg-left-15 {
+  margin-left: 15px;
+}
+
+.mg-left-20 {
+  margin-left: 20px;
+}
+
+.mg-left-25 {
+  margin-left: 25px;
+}
+
+.mg-left-30 {
+  margin-left: 30px;
+}
+
+.mg-left-35 {
+  margin-left: 35px;
+}
+
+.mg-left-40 {
+  margin-left: 40px;
+}
+
+.mg-left-45 {
+  margin-left: 45px;
+}
+
+.mg-left-50 {
+  margin-left: 50px;
+}
+
+.mg-right-5 {
+  margin-right: 5px;
+}
+
+.mg-right-10 {
+  margin-right: 10px;
+}
+
+.mg-right-15 {
+  margin-right: 15px;
+}
+
+.mg-right-20 {
+  margin-right: 20px;
+}
+
+.mg-right-25 {
+  margin-right: 25px;
+}
+
+.mg-right-30 {
+  margin-right: 30px;
+}
+
+.mg-right-35 {
+  margin-right: 35px;
+}
+
+.mg-right-40 {
+  margin-right: 40px;
+}
+
+.mg-right-45 {
+  margin-right: 45px;
+}
+
+.mg-right-50 {
+  margin-right: 50px;
+}
+
+/* Clases para Flexbox */
+.flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.align-start {
+  align-items: flex-start;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-end {
+  align-items: flex-end;
+}
+
+.align-stretch {
+  align-items: stretch;
+}
+
+.align-baseline {
+  align-items: baseline;
+}
